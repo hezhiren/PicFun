@@ -254,7 +254,7 @@ public class AlipayController {
         paramMap.put("out_trade_no", out_trade_no);
         paramMap.put("trade_no", trade_no);
         //支付可用渠道
-        //paramMap.put("enable_pay_channels","balance,moneyFund,pcredit");
+        paramMap.put("enable_pay_channels","balance,moneyFund,pcredit");
         String json = JSON.toJSONString(paramMap);
         alipayRequest.setBizContent(json);
         String result = "";
