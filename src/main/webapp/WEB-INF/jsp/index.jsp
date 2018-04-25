@@ -203,7 +203,7 @@ h2 {
 			<h2 id="tab4" name="tab">退 款 查 询</h2>
 			<h2 id="tab5" name="tab">交 易 关 闭</h2>
 		</div>
-		<form name=alipayment action="http://localhost:8080/alipay.do" method=post
+		<form name=alipayment action="http://47.98.159.0:9030/alipay.do" method=post
               target="_blank">
 			<div id="body1" class="show" name="divcontent">
 				<dl class="content">
@@ -237,7 +237,7 @@ h2 {
 				</dl>
 			</div>
 		</form>
-		<form name=tradequery action="http://localhost:8080/tradequery.do" method=post
+		<form name=tradequery action="http://47.98.159.0:9030/tradequery.do" method=post
               target="_blank">
 			<div id="body2" class="tab-content" name="divcontent">
 				<dl class="content">
@@ -261,7 +261,7 @@ h2 {
 				</dl>
 			</div>
 		</form>
-		<form name=traderefund action="http://localhost:8080/refund.do" method=post
+		<form name=traderefund action="http://47.98.159.0:9030/refund.do" method=post
               target="_blank">
 			<div id="body3" class="tab-content" name="divcontent">
 				<dl class="content">
@@ -301,7 +301,7 @@ h2 {
 			</div>
 		</form>
 		<form name=traderefundquery
-              action="http://localhost:8080/queryRefund.do" method=post
+              action="http://47.98.159.0:9030/queryRefund.do" method=post
               target="_blank">
 			<div id="body4" class="tab-content" name="divcontent">
 				<dl class="content">
@@ -330,7 +330,7 @@ h2 {
 				</dl>
 			</div>
 		</form>
-		<form name=tradeclose action="http://localhost:8080/close.do" method=post
+		<form name=tradeclose action="http://47.98.159.0:9030/close.do" method=post
               target="_blank">
 			<div id="body5" class="tab-content" name="divcontent">
 				<dl class="content">
